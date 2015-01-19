@@ -1,0 +1,35 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+.mymusic li{
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin: 0 25px 25px 0;
+	background-size: cover;
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+.mymusic li:hover {
+	-webkit-filter: grayscale(0.5);
+	filter: grayscale(0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
