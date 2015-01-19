@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=qjason35&api_key=a9276bf5a049bbb74084a9aedad4f690&limit=8&format=json&callback=?", function(data) {
+    $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=qjason35&api_key=********************************&limit=8&format=json&callback=?", function(data) {
 
     var html = ''; // we declare the variable that we'll be using to store our information
         var counter = 8; // we declare a counter variable to use with the if statement in order to limit the result to 1
